@@ -4,11 +4,16 @@
   background: rgb(204, 231, 255);
 }
 
+.jumbotron, #qs {
+  font-family: 'Cherry Swash', cursive;
+}
+
 .img-circle {
   max-width: 100px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  border: solid grey 2px;
 }
 
 .header {
@@ -27,4 +32,12 @@
   border-radius: 30px;
   display: block;
   margin: 0 auto;
+}
+
+.well {
+  background: rgb(204, 231, 255);
+}
+
+a {
+  color: rgb(188, 53, 0);
 }
