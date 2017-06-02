@@ -1,7 +1,7 @@
 # Ask Ember
 ![homepage screenshot](/public/assets/images/homescreen.png)
 
-Ask Ember! This programming specific website flips the script of a traditional ask me anything (as seen on Reddit), and allows budding junior developers or others with burning questions to ask peers and experts questions. Each question has its own unique page where experts, journeymen and other professionals can come together and provide multiple answers!
+:fire: :fire: :fire: Ask Ember! :fire: :fire: :fire: This programming specific website flips the script of a traditional ask me anything (as seen on Reddit), and allows budding junior developers or others with burning questions to ask peers and experts questions. This site is sepecific to the ember framework for javascript, but all programmers of all talents are welcome. Each question has its own unique page where experts, journeymen and other professionals can come together and provide multiple answers!
 
 ## Planning
 
