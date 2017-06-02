@@ -8,5 +8,5 @@
 
 <h4>Answers:</h4>
 {{#each question.answers as |answer|}}
-  {{answer-tile answer=answer saveAnswer="saveAnswer"}}
+  {{answer-tile answer=answer saveAnswer="saveAnswer" destroyAnswer="destroyAnswer"}}
 {{/each}}

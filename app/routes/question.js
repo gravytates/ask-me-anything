@@ -21,6 +21,14 @@ export default Ember.Route.extend({
         return question.save();
       })
       this.transitionTo('question');
+    },
+    destroyAnswer(answer) {
+      answer.destroyRecord();
+      this.transitionTo('question');
+    },
+    updateAnswer(answer, params) {
+      answer.save();
+      this.transitionTo('question');
     }
   }
 });
