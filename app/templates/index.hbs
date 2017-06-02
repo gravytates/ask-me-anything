@@ -1,0 +1,9 @@
+
+{{new-question saveQuestion="saveQuestion"}}
+<div id="questions">
+  {{#each model as |question|}}
+  <div class="well">
+    {{question-tile question=question}}
+  </div>
+  {{/each}}
+</div>
