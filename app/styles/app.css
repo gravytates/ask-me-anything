@@ -1,6 +1,8 @@
-.thumbnail {
-  width: 100px;
-  border-radius: 15px;
+.img-circle {
+  max-width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .header {

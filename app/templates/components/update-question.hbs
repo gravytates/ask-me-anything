@@ -1,0 +1,23 @@
+{{#if editQuestion}}
+  <form>
+    <div class='form-group'>
+      <label for="author">Name</label>
+      {{input class='form-control' value=question.author id="author"}}
+    </div>
+    <div class='form-group'>
+      <label for="content">Succinct Question</label>
+      {{input class='form-control' value=question.content id="content"}}
+    </div>
+    <div class='form-group'>
+      <label for="notes">Additional Notes/Background info</label>
+      {{input class='form-control' type='text' value=question.notes id="notes"}}
+    </div>
+    <div class='form-group'>
+      <label for="image">Photo for pizzaz</label>
+      {{input class='form-control' value=question.image id="image"}}
+    </div>
+    <button class='btn btn-default' {{action "updateQuestion" question}}>Update</button>
+  </form>
+{{else}}
+  <button class='btn btn-default' {{action 'questionFormShow'}}>Edit Question</button>
+{{/if}}

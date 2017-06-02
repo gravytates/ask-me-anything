@@ -2,5 +2,6 @@
 <h4>{{question.content}}</h4>
 <p>{{question.notes}}</p>
 <img src={{question.image}} class='question-pic' alt="question photo">
+{{update-question question=question updateQuestion='updateQuestion'}}
 
 <button class='btn btn-danger' {{action 'deleteQuestion' question}}>Delete Question</button>
