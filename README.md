@@ -1,5 +1,5 @@
 # Ask Ember
-![homepage screenshot]('/assets/images/homescreen.png')
+![homepage screenshot]('/public/assets/images/homescreen.png')
 
 Ask Ember! This programming specific website flips the script of a traditional ask me anything (as seen on Reddit), and allows budding junior developers or others with burning questions to ask peers and experts questions. Each question has its own unique page where experts, journeymen and other professionals can come together and provide multiple answers!
 
@@ -54,10 +54,10 @@ Specify what it takes to deploy your app.
 
 ### Screenshots
 Questions
-![questions screenshot]('assets/images/questions.png')
+![questions screenshot]('/public/assets/images/questions.png')
 
 Answers
-![answers screenshot]('assets/images/answers.png')
+![answers screenshot]('/public/assets/images/answers.png')
 
 
 ## Further Reading / Useful Links
