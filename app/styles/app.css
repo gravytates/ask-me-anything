@@ -1,11 +1,29 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 .jumbotron {
   font-family: 'Cherry Swash', cursive;
   color: rgb(255, 132, 10);
-  background: rgb(204, 231, 255);
+  background-color: rgba(255, 255, 255, 0.0);
+  margin-top: 80px;
+  text-align: center;
 }
 
 .jumbotron, #qs {
   font-family: 'Cherry Swash', cursive;
+}
+
+#background {
+  background-image: url(/assets/images/ember.jpeg);
+  position: relative;
+  opacity: 0.9;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
 }
 
 .img-circle {
@@ -35,7 +53,8 @@
 }
 
 .well {
-  background: rgb(204, 231, 255);
+  background: rgb(164, 190, 232);
+  border-radius: 10px;
 }
 
 a {
