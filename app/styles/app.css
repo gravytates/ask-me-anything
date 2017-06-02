@@ -1,6 +1,6 @@
 .thumbnail {
   width: 100px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .header {
@@ -13,4 +13,10 @@
 
 .btn {
   margin: 10px 0px;
+}
+
+.question-pic {
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
 }
