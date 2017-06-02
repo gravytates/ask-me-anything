@@ -1,3 +1,9 @@
+.jumbotron {
+  font-family: 'Cherry Swash', cursive;
+  color: rgb(255, 132, 10);
+  background: rgb(204, 231, 255);
+}
+
 .img-circle {
   max-width: 100px;
   border-radius: 50%;
