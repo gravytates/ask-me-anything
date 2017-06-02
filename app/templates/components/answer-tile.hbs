@@ -1,5 +1,5 @@
 <div class="well">
-  <b>{{answer.author}}</b>
+  <p><b>{{answer.author}}</b>, {{answer.date}}</p>
   <p>{{answer.content}}</p>
   {{update-answer answer=answer updateAnswer='updateAnswer'}}
   <button class='btn-sm' {{action 'delete' answer}}>delete answer</button>

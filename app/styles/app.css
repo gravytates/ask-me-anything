@@ -49,12 +49,16 @@ body, html {
   border-radius: 30px;
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 30%;
 }
 
 .well {
   background: rgb(164, 190, 232);
   border-radius: 10px;
+}
+
+.q-date {
+  font-size: 15px;
 }
 
 a {
