@@ -1,0 +1,15 @@
+{{#if updateNewAnswer}}
+  <form>
+    <div class='form-group'>
+      <label for="author">Author</label>
+      {{input class='form-control' value=answer.author id="author"}}
+    </div>
+    <div class='form-group'>
+      <label for="content">Answer</label>
+      {{textarea rows=5 class='form-control' value=answer.content id="content"}}
+    </div>
+    <button class='btn btn-default' {{action "updateAnswer" answer}}>update!</button>
+  </form>
+{{else}}
+ <button class='btn-sm' id="update-answer-btn" {{action 'answerFormShow'}}>update answer</button>
+{{/if}}
