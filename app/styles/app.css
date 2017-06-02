@@ -11,7 +11,7 @@ body, html {
   text-align: center;
 }
 
-.jumbotron, #qs {
+.jumbotron, .qs {
   font-family: 'Cherry Swash', cursive;
 }
 
@@ -50,6 +50,7 @@ body, html {
   border-radius: 30px;
   display: block;
   margin: 0 auto;
+  width: 50%;
 }
 
 .well {

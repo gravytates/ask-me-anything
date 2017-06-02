@@ -1,6 +1,7 @@
-# Ask Me Anything
+# Ask Ember
+![homepage screenshot]('/assets/images/homescreen.png')
 
-Ask Me Anything! This programming specific website flips the script of a traditional ask me anything (as seen on Reddit), and allows budding junior developers or others with burning questions to ask peers and experts questions. Each question has its own unique page where experts, journeymen and other professionals can come together and provide multiple answers!
+Ask Ember! This programming specific website flips the script of a traditional ask me anything (as seen on Reddit), and allows budding junior developers or others with burning questions to ask peers and experts questions. Each question has its own unique page where experts, journeymen and other professionals can come together and provide multiple answers!
 
 ## Planning
 
@@ -13,6 +14,7 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/)
 
 2. Specs
+
 | behavior |  input   |  output  |
 |----------|:--------:|:--------:|
 |submit a question|user fills out form provided within 'new question' button|upon submission, new question is populated on homepage|
@@ -20,41 +22,10 @@ You will need the following things properly installed on your computer.
 |answer a question|in individual question page, user can fill out form provided within 'new answer' button|upon submission, a new answer is provided in the question page|
 |multiple answers per question|user can provide additional answers to a question|multiple answers can populate an individual question page|
 
-Stretch Plans:
-User Model
-Full CRUD
-User Authentication and Admin Panel (only admin can delete questions)
-Upvote/Downvote for answers
-Tags to Questions
-
-3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for About Section
-  * Template/html page for Contact Section
-  * Template/html page for Question
-  * Integrate feature that allows for multiple answers per question
-
-4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
-
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/gravytates/ask-me-anything.git` this repository
 * `cd ask-me-anything`
 * `npm install`
 
@@ -80,6 +51,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 ### Deploying
 
 Specify what it takes to deploy your app.
+
+### Screenshots
+Questions
+![questions screenshot]('assets/images/questions.png')
+
+Answers
+![answers screenshot]('assets/images/answers.png')
 
 
 ## Further Reading / Useful Links
